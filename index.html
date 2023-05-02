@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoxDemo</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts      -->
+    <header class="header">
+      <a href="#" class="logo"> <span>Box</span>Demo </a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">Acerca de</a>
+        <a href="#features">Servicios</a>
+        <a href="#pricing">Precios</a>
+        <a href="#trainers">Entrenadores</a>
+      </nav>
+    </header>
+    <!-- header section ends     -->
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-bg-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Domina cuerpo y mente</span>
+              <h3>Olvida las excusas y vuelvete fuerte.</h3>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-bg-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Domina cuerpo y mente</span>
+              <h3>Olvida las excusas y vuelvéte fuerte.</h3>
+            </div>
+          </div>
+
+          <div
+            class="swiper-slide slide"
+            style="background: url(images/home-bg-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Domina cuerpo y mente</span>
+              <h3>Olvida las excusas y vuelvéte fuerte.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <div class="image">
+        <img src="images/about-img.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <span>Acerce de nosotros</span>
+        <h3 class="title">
+          Nuestro entrenamiento siempre te llevará a ser cada vez mejor
+        </h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione quia
+          accusamus dicta inventore nobis obcaecati vero odio, id dolorum.
+          Consequatur ex, aperiam deserunt nostrum perferendis illum unde ipsa?
+          Consequatur, distinctio?
+        </p>
+        <div class="box-container">
+          <div class="box">
+            <h3><i class="fas fa-circle"></i>Construye un gran cuerpo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              enim.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-circle"></i>Aprende a defenderte</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              enim.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-circle"></i>Lleva una vida saludable</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              enim.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-circle"></i>Aprende a tener disciplina</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+              enim.
+            </p>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!--services section starts  -->
+    <section class="features" id="features">
+      <h1 class="heading"><span>Servicios</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/f-img-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <img src="images/icon-1.png" alt="" />
+            <h3>Dietas personalizadas</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, atque.
+            </p>
+            <!-- <a href="#" class="btn">read more</a> -->
+          </div>
+        </div>
+
+        <div class="box second">
+          <div class="image">
+            <img src="images/f-img-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <img src="images/icon-2.png" alt="" />
+            <h3>Clases solo para hombres</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, atque.
+            </p>
+            <!-- <a href="#" class="btn">read more</a> -->
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/f-img-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <img src="images/icon-3.png" alt="" />
+            <h3>Clases solo para mujeres</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, atque.
+            </p>
+            <!-- <a href="#" class="btn">read more</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section ends -->
+
+    <!-- pricing section starts  -->
+    <section class="pricing" id="pricing">
+      <div class="information">
+        <span>Precios</span>
+        <h3>Escoje el plan que mejor se adapte a ti</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam dolore
+          excepturi ea suscipit fugiat cum quae, rerum optio mollitia! Tempora?
+        </p>
+        <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+        <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+        <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+        <!-- <a href="#" class="btn">all pricing</a> -->
+      </div>
+
+      <div class="plan basic">
+        <h3>plan básico</h3>
+        <div class="price"><span>$</span>300<span>/m</span></div>
+        <div class="list">
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+        </div>
+        <!-- <a href="#" class="btn">get started</a> -->
+      </div>
+
+      <div class="plan">
+        <h3>Plan pro</h3>
+        <div class="price"><span>$</span>600<span>/m</span></div>
+        <div class="list">
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+          <p><i class="fas fa-check"></i> Entrenamiento personal</p>
+        </div>
+        <!-- <a href="#" class="btn">get started</a> -->
+      </div>
+    </section>
+    <!-- pricing section ends -->
+
+    <!-- trainers section starts  -->
+    <section class="trainers" id="trainers">
+      <h1 class="heading"><span>Entrenadores</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/trainer-1.jpg" alt="" />
+          <div class="content">
+            <span>Emtrenador</span>
+            <h3>Entrenador 1</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/trainer-2.jpg" alt="" />
+          <div class="content">
+            <span>Emtrenador</span>
+            <h3>Entrenador 2</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/trainer-3.jpg" alt="" />
+          <div class="content">
+            <span>Emtrenador</span>
+            <h3>Entrenador 3</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/trainer-4.jpg" alt="" />
+          <div class="content">
+            <span>Emtrenador</span>
+            <h3>Entrenador 4</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- trainers section ends -->
+
+    <!-- testimonials section starts  -->
+    <section class="testimonial-container">
+      <div class="information">
+        <span>testimonios</span>
+        <h3>Lo que dicen nuestros alumnos</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+          voluptas praesentium asperiores fugiat, excepturi odit obcaecati a
+          voluptatibus earum quisquam?
+        </p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </div>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus, quo.
+            </p>
+            <div class="user">
+              <img src="images/pic-1.png" alt="" />
+              <div class="info">
+                <h3>john deo</h3>
+                <span>designer</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus, quo.
+            </p>
+            <div class="user">
+              <img src="images/pic-2.png" alt="" />
+              <div class="info">
+                <h3>john deo</h3>
+                <span>designer</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus, quo.
+            </p>
+            <div class="user">
+              <img src="images/pic-3.png" alt="" />
+              <div class="info">
+                <h3>john deo</h3>
+                <span>designer</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus, quo.
+            </p>
+            <div class="user">
+              <img src="images/pic-4.png" alt="" />
+              <div class="info">
+                <h3>john deo</h3>
+                <span>designer</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Horario</h3>
+          <p>Lunes : <i> 7:00am - 10:30pm </i></p>
+          <p>Martes : <i> 7:00am - 10:30pm </i></p>
+          <p>Miércoles : <i> 7:00am - 10:30pm </i></p>
+          <p>jueves: <i> 7:00am - 10:30pm </i></p>
+          <p>Viernes : <i> 7:00am - 10:30pm </i></p>
+          <p>Sábado: <i> closed </i></p>
+        </div>
+
+        <div class="box">
+          <h3>Contacto</h3>
+          <p><i class="fas fa-phone"></i> +123-456-7890</p>
+          <p><i class="fas fa-phone"></i> +111-222-3333</p>
+          <p><i class="fas fa-envelope"></i> gymbox@gymbox.com</p>
+          <p><i class="fas fa-map"></i> México</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+        <div class="box">
+          <h3>Redes sociales</h3>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="credit">
+      Año de creación <span>2023</span> |Todos los derechos reservados
+    </div>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
